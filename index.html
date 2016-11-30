@@ -4,40 +4,122 @@
     <title>Meghna weds Prakash</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="style.css">
-</head>
+    <style>
+        body {
+            background: #378;
+        }
 
+        .step {
+            min-height: 400px;
+        }
+
+        div.message {
+            margin-bottom: 1.75em;
+            color: #ccc;
+        }
+
+        div.message .main {
+            text-align: center;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 2em;
+            color: #eee;
+        }
+
+        div.message .special {
+            text-align: center;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 1.5em;
+            color: #f3b3b3;
+        }
+
+        div.message .small {
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 0.6em;
+            color: #eee;
+        }
+
+        img.image {
+            width: 100%;
+            box-sizing: border-box;
+            border: 4px solid white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+
+        div.note {
+            font-size: 17px;
+            color: #bf8787;
+            margin-top: 20px;
+            font-style: italic;
+            padding: 5px 15px;
+            background: rgba(255, 0, 0, 0.18);
+            display: inline-block;
+            border-radius: 15px;
+        }
+
+        @media (max-width: 767px) {
+            .mobile-hidden {
+                display: none;
+            }
+        }
+
+    </style>
+</head>
 <body>
 <div id="impress">
 
-    <div class="step" data-x="0" data-y="0">
-        This is my first slide
+    <div class="step" data-x="0" data-y="0" style="text-align: center">
+
+        <div class="message">
+            <div class="main">Meghna & Prakash</div>
+        </div>
+
+        <img src="images/together.jpg" alt="Prakash & Meghna" class="image">
+        <div class="note mobile-hidden">Press Tab / Space / arrow keys to go further</div>
     </div>
 
+    <div class="step" data-x="1500" data-y="0" data-scale="0.5">
+        <div class="message">
+            <div class="main">Our Story</div>
+            <div class="small">
 
-    <div class="step" data-x="1500" data-y="0">
-        This is slide 2
+            </div>
+            We met few months back and decided to marry after some understandings and many unknowns.
+            Actually, there is a lot to tell and it is definitely not boring. We shall meet and talk over a coffee.
+        </div>
     </div>
 
-    <div class="step" data-x="1500" data-y="-1400">
-        This is slide 3
+    <div class="step" data-x="1500" data-y="-700" data-scale="0.5">
+        <div class="message">
+            <div class="main">Two States</div>
+            <div class="small">
+                We are not from same states and our families do not have a common language to communicate. But finally
+                after some regular struggles and misunderstandings
+                <div class="special">we are getting married</div>
+            </div>
+            <img src="images/shopping.jpg" alt="Prakash & Meghna" class="image">
+        </div>
     </div>
 
-    <div class="step" data-x="1500" data-y="-800" data-scale="0.5">
-        This is slide 4
+    <div class="step" data-x="2500" data-y="-800" data-rotate="90">
+        <div class="main">Marriage</div>
+
     </div>
 
-    <div class="step" data-x="0" data-y="-800" data-rotate="90">
-        This is slide 5 and it rotates in.
-    </div>
-
-    <div class="step" data-x="-2600" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
+    <div class="step" data-x="-2600" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90"
+         data-scale="4">
         This is slide 7 and it has a 3D transition AND a scale.
     </div>
 
+    <div class="step" data-x="2500" data-y="-800" data-scale="0.5">
+        <div class="message">
+            <div class="main">Few Moments</div>
+            We met few months back
+        </div>
+    </div>
+
     <script src="impress.js"></script>
-    <script>impress().init();</script>
+
 
 </div>
 </body>
