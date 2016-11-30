@@ -10,6 +10,7 @@
             background: #378;
         }
 
+
         .step {
             min-height: 400px;
         }
@@ -61,6 +62,24 @@
             .mobile-hidden {
                 display: none;
             }
+        }
+
+        @media (max-width: 1024px) {
+            .step {
+                font-size: 30px;
+                width: 700px;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .step {
+                font-size: 38px;
+                width: 900px;
+            }
+        }
+
+        .step {
+            text-align: center;
         }
 
     </style>
@@ -138,20 +157,15 @@
 
     </div>
 
-    <div class="step" data-x="1500" data-y="-700" data-scale="0.5">
+    <div class="step" data-x="-900" data-y="0">
+
         <div class="message">
-            <div class="main">Two States</div>
-            <div class="small">
-                We are not from same states and our families do not have a common language to communicate. But finally
-                after some regular struggles and misunderstandings
-                <div class="special">we are getting married</div>
-            </div>
-            <img src="images/shopping.jpg" alt="Prakash & Meghna" class="image">
+            <div class="main">Reach</div>
         </div>
+
     </div>
 
     <script src="impress.js"></script>
-
 
 </div>
 </body>
