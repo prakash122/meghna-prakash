@@ -71,33 +71,49 @@
             }
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 992px) {
+            .step {
+                margin: 40px auto !important;
+                padding: 40px 0 !important;
+            }
+
             .mobile-hidden {
                 display: none;
             }
+            .float img{
+                margin: 0 25%;
+                width: 50%!important;
+            }
         }
 
-        .small+.small{
+        .small + .small {
             margin-top: 15px;
         }
+
         .center {
             text-align: center;
         }
+
         .reach-link {
             display: inline-block;
             padding: 10px;
         }
 
-        .float.small {
-            padding-left: 15px;
-            padding-top: 35px;
+        @media (min-width: 992px) {
+
+            .float.small {
+                padding-left: 25px;
+                padding-top: 35px;
+            }
+
+            .float {
+                width: 50% !important;
+                box-sizing: border-box;
+                float: left;
+            }
+
         }
 
-        .float {
-            width: 50%!important;
-            box-sizing: border-box;
-            float: left;
-        }
     </style>
 </head>
 <body>
@@ -117,8 +133,10 @@
         <div class="message">
             <div class="main">About Her</div>
             <div class="small">
-                Really a sweet and nice girl. She loves to talk about anything. She wants to travel to a lot of places but only if it cool. <span class="icon-happy2"></span>
-                Oh! forgot she loves shopping and dressing, <span class="icon-wondering2"></span> maybe most of the girls are the same.
+                A very sweet and nice girl. She loves to talk about anything. She wants to travel to a lot of places but
+                only the ones which are cold. <span class="icon-happy2"></span>
+                Oh!yeah and she also loves shopping, <span class="icon-wondering2"></span> just like most of the other
+                girls!
             </div>
         </div>
     </div>
@@ -127,13 +145,18 @@
         <div class="message">
             <div class="main">About Him</div>
 
-            <img src="images/folded-hands.jpg" alt="Prakash Kumar" class="image float">
+            <div class="float">
+                <img src="images/folded-hands.jpg" alt="Prakash Kumar" class="image">
+            </div>
 
-            <div class="small float" >
-                He is software developer <span class="icon-confused2"></span>. Ya! that's right he mostly spend his time on laptop. Wonder what he will do now <span class="icon-wondering2"></span>.
-                He likes traveling and a bit different. The background color of the site is #378 which claims it to be his favorite color. <span class="icon-cool2"></span>
+            <div class="small float">
+                He is a software developer <span class="icon-confused2"></span>. Ya! that's right he mostly spends his
+                time with the codes. I wonder what I'll do after marriage. <span class="icon-wondering2"></span>.
+                He likes traveling but his style is different, he likes bike rides and I dont like it that much. The
+                background color of the site is #378 which he says is his favorite color.Weird right?:P <span
+                    class="icon-cool2"></span>
                 <br>
-                He does a lot of bike rides and blog too. You can check <a href="http://blog.prakash.io" target="_blank">his blog</a>
+                He also likes writing blogs.You can check <a href="http://blog.prakash.io" target="_blank">his blog</a>
             </div>
 
             <div style="clear: both"></div>
@@ -144,12 +167,13 @@
         <div class="message">
             <div class="main">Our Story</div>
             <div class="small">
-                We met few months back and liked each other after some understandings and many unknowns.
+                We met a few months back and liked each other after understanding a bit and mnot understanding a bit :P
                 We are not from same states and our families do not have a common language to communicate.
+                We eat a lot of rice and they don't..MAJOR DIFFERENCE!!
             </div>
             <div class="small">
-                But finally after some regular struggles and small misunderstandings we are all happy and
-                <div class="special">we are getting married <span class="icon-heart"></span></div>
+                But finally after some regular struggles and some meaningless misunderstandings we are happy and
+                <div class="special"> getting married!! <span class="icon-heart"></span></div>
             </div>
         </div>
     </div>
@@ -158,10 +182,10 @@
         <div class="message">
             <div class="main">Two States</div>
             <div class="small">
-                We acted as translators for almost 2 hour long calls. <span class="icon-confused2"></span>
-                It taught us interesting things about how interesting and complex all relations you come across in life.
-                We are talking about this as this is probably the best thing we have learnt in a while.
-                <div class="special">Finally we are happy</div>
+                We acted as translators for almost 2 hour long calls <span class="icon-confused2"></span>,
+                and made us realise, how complex arrange marriages and ofcourse relations are!! <span class="icon-neutral2"></span>
+                Tough job, but all worth it!! :)
+                <div class="special"></div>
             </div>
 
             <img src="images/happy.jpg" alt="Prakash & Meghna" class="image">
@@ -191,7 +215,7 @@
         <div class="message">
             <div class="main">Reception</div>
             <div class="small">
-                Our reception is here. You will be able to visit a small beautiful village.
+                Our reception is here. You can visit a small village full of greenery and coconut trees!
                 <div class="special">
                     at 6:00 PM on 17 <sup>th</sup> Dec 2016
                 </div>
@@ -209,19 +233,21 @@
     <div class="step" data-x="-1500" data-y="0">
 
         <div class="message center">
-            <div class="main">Reach us</div>
+            <div class="main">Reach us out</div>
             <div class="small">
                 This is not just for directions <span class="icon-happy2"></span>
-                but to talk to us and wish us the best.
+                but also we can catch up with our lives!
             </div>
             <div class="small ">
-                <a class="reach-link" href="tel:+918099066096"><span class="icon-phone"></span>&nbsp;Call us <span class="mobile-hidden">+9180990 66096</span></a>
+                <a class="reach-link" href="tel:+918099066096"><span class="icon-phone"></span>&nbsp;Call us <span
+                        class="mobile-hidden">+9180990 66096</span></a>
             </div>
             <br>
             <div class="main">Confirm</div>
-            <div class="small">Then I can be at peace <span class="icon-happy2"></span></div>
+            <div class="small">Then we can be at peace <span class="icon-happy2"></span></div>
             <div class="small ">
-                <a class="reach-link" target="_blank" href="https://www.facebook.com/events/1787224598226987"><span class="icon-facebook2"></span>&nbsp;RSVP</a>
+                <a class="reach-link" target="_blank" href="https://www.facebook.com/events/1787224598226987"><span
+                        class="icon-facebook2"></span>&nbsp;RSVP</a>
             </div>
 
         </div>
