@@ -3,13 +3,12 @@
 <head>
     <title>Meghna weds Prakash</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             background: #378;
         }
-
 
         .step {
             min-height: 400px;
@@ -58,9 +57,10 @@
             border-radius: 15px;
         }
 
-        @media (max-width: 767px) {
-            .mobile-hidden {
-                display: none;
+        @media (max-width: 1400px) {
+            .step {
+                font-size: 35px;
+                width: 800px;
             }
         }
 
@@ -71,17 +71,21 @@
             }
         }
 
-        @media (max-width: 1400px) {
-            .step {
-                font-size: 35px;
-                width: 800px;
+        @media (max-width: 767px) {
+            .mobile-hidden {
+                display: none;
             }
         }
-
-        .step {
+        .small+.small{
+            margin-top: 15px;
+        }
+        .center {
             text-align: center;
         }
-
+        .reach-link {
+            display: inline-block;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -101,32 +105,38 @@
         <div class="message">
             <div class="main">Our Story</div>
             <div class="small">
-
+                We met few months back and liked each other after some understandings and many unknowns.
+                We are not from same states and our families do not have a common language to communicate.
             </div>
-            We met few months back and decided to marry after some understandings and many unknowns.
-            Actually, there is a lot to tell and it is definitely not boring. We shall meet and talk over a coffee.
+            <div class="small">
+                But finally after some regular struggles and small misunderstandings we are all happy and
+                <div class="special">we are getting married</div>
+            </div>
         </div>
     </div>
 
     <div class="step" data-x="1500" data-y="-700" data-scale="0.5">
         <div class="message">
-            <div class="main">Two States</div>
+            <div class="main">Two States & Two languages</div>
             <div class="small">
-                We are not from same states and our families do not have a common language to communicate. But finally
-                after some regular struggles and misunderstandings
-                <div class="special">we are getting married</div>
+                We acted as a translator for almost 2 hour long calls. sigh!!
+                It taught us interesting things about how interesting and complex all relations you come across in life.
+                We are talking about this as this is probably the best thing we have learnt in a while.
+                <div class="special">Finally we are happy</div>
             </div>
+
             <img src="images/shopping.jpg" alt="Prakash & Meghna" class="image">
         </div>
     </div>
 
-    <div class="step" data-x="2500" data-y="-800" >
+    <div class="step" data-x="1500" data-y="-2600" data-z="-3600">
         <div class="message">
             <div class="main">Marriage</div>
             <div class="small">
-                This is where our marriage is happening. We will be more than pleased with your presence. Please try to make it
+                This is where our marriage is happening. We will be more than pleased with your presence. Please try to
+                make it
                 <div class="special">
-                    at 7:30 PM on 14 <sup>th</sup> Dec 2016
+                    at 7:32 PM on 14 <sup>th</sup> Dec 2016
                 </div>
             </div>
         </div>
@@ -138,13 +148,13 @@
                 allowfullscreen></iframe>
     </div>
 
-    <div class="step" data-x="4200" data-y="-800" data-rotate="90">
+    <div class="step" data-x="500" data-y="-2600" data-z="-3600">
         <div class="message">
             <div class="main">Reception</div>
             <div class="small">
                 Our reception is here. You will be able to visit a small beautiful village.
                 <div class="special">
-                    at 6:30 PM on 17 <sup>th</sup> Dec 2016
+                    at 6:00 PM on 17 <sup>th</sup> Dec 2016
                 </div>
             </div>
         </div>
@@ -157,10 +167,24 @@
 
     </div>
 
-    <div class="step" data-x="-900" data-y="0">
+    <div class="step" data-x="-1500" data-y="0">
 
-        <div class="message">
-            <div class="main">Reach</div>
+        <div class="message center">
+            <div class="main">Reach us</div>
+            <div class="small">
+                This is not just for directions <span class="icon-happy2"></span>
+                but to talk to us and wish us the best.
+            </div>
+            <div class="small ">
+                <a class="reach-link" href="tel:+918099066096"><span class="icon-phone"></span>&nbsp;Call us</a>
+            </div>
+            <br>
+            <div class="main">Confirm</div>
+            <div class="small">Then I can be at peace <span class="icon-happy2"></span></div>
+            <div class="small ">
+                <a class="reach-link" target="_blank" href="https://www.facebook.com/events/1787224598226987"><span class="icon-facebook2"></span>&nbsp;RSVP</a>
+            </div>
+
         </div>
 
     </div>
