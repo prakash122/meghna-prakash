@@ -86,6 +86,17 @@
             display: inline-block;
             padding: 10px;
         }
+
+        .float.small {
+            padding-left: 15px;
+            padding-top: 35px;
+        }
+
+        .float {
+            width: 50%!important;
+            box-sizing: border-box;
+            float: left;
+        }
     </style>
 </head>
 <body>
@@ -111,12 +122,18 @@
         </div>
     </div>
     <div class="step" data-x="1500" data-y="1000" data-scale="0.5">
+
         <div class="message">
             <div class="main">About Him</div>
-            <div class="small">
+
+            <img src="images/folded-hands.jpg" alt="Prakash Kumar" class="image float">
+
+            <div class="small float" >
                 He is software developer <span class="icon-confused2"></span>. Ya! that's right he mostly spend his time on laptop. Wonder what he will do now <span class="icon-wondering2"></span>.
                 He likes traveling and a bit different. The background color of the site is #378 which claims it to be his favorite color. <span class="icon-cool2"></span>
             </div>
+
+            <div style="clear: both"></div>
         </div>
     </div>
 
